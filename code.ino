@@ -2,8 +2,8 @@
 
 void setup() {
   pinMode(2,INPUT);             // connect IR sensor"s output pin to D2 PIN of arduino
-  pinMode(12,OUTPUT);           // connect LED's POSITIVE pin to D2 PIN of arduino
-  pinMode(13,OUTPUT);           // connect BUZZER's POSITIVE pin to D2 PIN of arduino
+  pinMode(12,OUTPUT);           // connect LED's POSITIVE pin to D12 PIN of arduino
+  pinMode(13,OUTPUT);           // connect BUZZER's POSITIVE pin to D13 PIN of arduino
 }
 
 void loop() {
